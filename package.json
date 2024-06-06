@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cls-rtracer": "^2.6.3",
+    "cors": "^2.8.5",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "joi": "^17.13.1",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "mqtt": "^5.6.1",
+    "nodemon": "^3.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "enterprise-bot",
+  "author": "Gokul",
+  "version": "1.0.0",
+  "main": "app.js",
+  "keywords": [
+    "NOTIFICATION SERVICE",
+    "IPL SCORE",
+    "SUBSCRIPTION SERVICE"
+  ],
+  "license": "ISC",
+  "description": "This is an Notification service for IPL score and an Subscription based service",
+  "type": "commonjs",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "morgan": "^1.10.0",
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.0.0"
+  }
+}

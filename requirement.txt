@@ -1,0 +1,8 @@
+
+> Create an application where you can register as a user and subscribe to your favorite IPL team and you will be notified of changes to the team in real time. So basically this app/service should allow an HTTP. Client to subscribe to changes in a MongoDB database in real-time.
+
+> An administrator of the application can make changes to the database (via API or scripts) and subscribed users can see those changes in real time as long as they are logged in. Even if they are not logged in the data remains persistent and will be stored for that user and the next time he logs in the data will be shown to the user.
+
+To summarize your task:
+1. Build a notification system to notify subscribers of changes made in a mongodb database in real-time.
+2. (For brownie points) Allow subscriptions at the field level of a document.
